@@ -1,4 +1,4 @@
-// 버전 4699b0d832
+// 버전 73bdaca19a
 const C='osmo360ii-guide';
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png'])));});
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
